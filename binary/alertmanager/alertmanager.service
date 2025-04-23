@@ -1,0 +1,12 @@
+[Unit]
+Description=alertmanager
+After=network.target
+
+[Service]
+ExecStart=/usr/local/alertmanager/alertmanager \
+--config.file=/usr/local/alertmanager/alertmanager.yml \
+--cluster.advertise-address=IP:9093
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
