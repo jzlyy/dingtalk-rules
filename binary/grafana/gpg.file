@@ -1,0 +1,3 @@
+wget -q -O gpg.key https://rpm.grafana.com/gpg.key
+
+sudo rpm --import gpg.key
