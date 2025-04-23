@@ -1,0 +1,5 @@
+## Grafana Producting
+sudo dnf install grafana
+
+## Grafana Staging
+sudo dnf install grafana-enterprise  
