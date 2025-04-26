@@ -1,0 +1,1 @@
+curl http://IP:9115/probe?target=http://IP:9100&module=http_2xx
