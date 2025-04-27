@@ -5,9 +5,9 @@ Integrate the entire Prometheus ecosystem to build a comprehensive black-box and
 
 
 ## Binary
-Integrate official Prometheus binaries including prometheus, node_exporter, alertmanager, blackbox_exporter, as well as the community-developed prometheus-webhook-dingtalk binary by timonwong.  
-Implement centralized deployment using systemd to achieve lightweight, efficient, and rapid configurationintegration, with DingTalk robot-enabled fast alert response capabilities.  
-Establish a comprehensive Prometheus monitoring system through black-box and white-box monitoring solutions to maximize resource responsiveness.
+1. Integrate official Prometheus binaries including prometheus, node_exporter, alertmanager, blackbox_exporter, as well as the community-developed prometheus-webhook-dingtalk binary by timonwong.  
+2. Implement centralized deployment using systemd to achieve lightweight, efficient, and rapid configurationintegration, with DingTalk robot-enabled fast alert response capabilities.  
+3. Establish a comprehensive Prometheus monitoring system through black-box and white-box monitoring solutions to maximize resource responsiveness.
 
 ## Kubernetes(Helm)
 
