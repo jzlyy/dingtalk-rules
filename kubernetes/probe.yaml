@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: Probe
+metadata:
+  name: 
+  namespace: 
+  labels:
+    release: prometheus                       ##kube-prometheus-stack Helm release
+spec:
+  jobName: 
+  interval:
+  prober:
+    url:                                          ##blackbox URL : xx.xx.svc.cluster.local
+    path: /probe
+  targets:
+    staticConfig:
+      static:
+        -                                        ##service URL : http://
+  module: http_2xx
+
