@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -d '[{"status":"firing","labels":{"alertname":"TestAlert"}}]' http://IP:NodePort/api/v2/alerts
