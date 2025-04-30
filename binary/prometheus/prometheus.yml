@@ -25,7 +25,7 @@ scrape_configs:
       - targets: ["IP:9090"]
   - job_name: "linux"
     static_configs:
-      - targets: ["IP:9090"]
+      - targets: ["IP:9100"]
   - job_name: 'blackbox-http'
     metrics_path: /probe
     params:
