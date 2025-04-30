@@ -7,5 +7,5 @@ groups:
     labels:
       severity: critical
     annotations:
-      summary: "高CPU使用率 (实例: {{ $labels.instance }})"
-      description: "CPU使用率超过 80% (当前值: {{ $value }}%)"
+      summary: "High CPU usage (living-example: {{ $labels.instance }})"
+      description: "CPU usage exceeds 80% (Current value: {{ $value }}%)"
