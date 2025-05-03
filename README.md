@@ -13,3 +13,6 @@ Integrate the entire Prometheus ecosystem to build a comprehensive black-box and
 1. Integrate official kube-prometheus-stack, prometheus-adapter, and prometheus-blackbox-exporter Helm charts to build a complete Prometheus monitoring system in Kubernetes environment.  
 2. Utilize Prometheus-Operator to achieve fine-grained isolation of monitoring scenarios and automated management of ServiceMonitor, PodMonitor, and ProbeMonitor resources.  
 3. Implement blackbox/whitebox monitoring solutions in Kubernetes environment with DingTalk robot integration, enabling rapid response to resource alerts.
+
+## Security Policy
+To report security vulnerabilities, please see [SECURITY.md](SECURITY.md)。
