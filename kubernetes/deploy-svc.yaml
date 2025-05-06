@@ -6,11 +6,6 @@ metadata:
   labels:
     app: 
 spec:
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxSurge: 25%
-      maxUnavailable: 25%
   replicas: 3
   selector:
     matchLabels:
